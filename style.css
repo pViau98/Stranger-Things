@@ -3,17 +3,17 @@ body{
 }
 
 #grad1{
-
+    background-image: linear-gradient(#e8f5ff, #45b2ff);
 }
 
 #grad2{
-
+    background-image: linear-gradient(#ffa76a, #ff4431);
 }
 
 #grad3{
-
+    background-image: linear-gradient(#9a8478, #1e130c);
 }
 
 #grad4{
-
+    background-image: linear-gradient( #072239, #07d173);
 }
