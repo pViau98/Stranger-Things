@@ -4,31 +4,31 @@ body{
 
 #grad1{
     background-image: linear-gradient(#e8f5ff, #45b2ff);
-    width: 300px;
+    width: 100%;
     height: 300px;
 }
 
 #grad2{
     background-image: linear-gradient(#ffa76a, #ff4431);
-    width: 300px;
+    width: 100%;
     height: 300px;
 }
 
 #grad3{
     background-image: linear-gradient(#9a8478, #1e130c);
-    width: 300px;
+    width: 100%;
     height: 300px;
 }
 
 #grad4{
     background-image: linear-gradient( #072239, #07d173);
-    width: 300px;
+    width: 100%;
     height: 300px;
 }
 
 .fondTexte{
     background-color: blanchedalmond;
-    width: 300px;
+    width: 100%;
     margin-left: 20px;
     margin-right: 20px;
 }
