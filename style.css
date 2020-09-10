@@ -4,8 +4,9 @@ body{
 
 #grad1{
     background-image: linear-gradient(#e8f5ff, #45b2ff);
-    width: 100%;
+    width: 300px;
     height: 300px;
+    border-radius: 50%;
 }
 
 #grad2{
@@ -28,9 +29,10 @@ body{
 
 .fondTexte{
     background-color: blanchedalmond;
-    width: 100%;
+    width: 300px;
     margin-left: 20px;
     margin-right: 20px;
+    border-radius: 2%;
 }
 
 h2{
