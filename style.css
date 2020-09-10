@@ -7,24 +7,31 @@ body{
     width: 300px;
     height: 300px;
     border-radius: 50%;
+    margin-left: 20px;
 }
 
 #grad2{
     background-image: linear-gradient(#ffa76a, #ff4431);
-    width: 100%;
+    width: 300px;
     height: 300px;
+    border-radius: 50%;
+    margin-left: 20px;
 }
 
 #grad3{
     background-image: linear-gradient(#9a8478, #1e130c);
-    width: 100%;
+    width: 300px;
     height: 300px;
+    border-radius: 50%;
+    margin-left: 20px;
 }
 
 #grad4{
     background-image: linear-gradient( #072239, #07d173);
-    width: 100%;
+    width: 300px;
     height: 300px;
+    border-radius: 50%;
+    margin-left: 20px;
 }
 
 .fondTexte{
@@ -33,6 +40,7 @@ body{
     margin-left: 20px;
     margin-right: 20px;
     border-radius: 6px;
+    padding-top: 1px;
 }
 
 h2{
