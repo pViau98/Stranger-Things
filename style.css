@@ -74,6 +74,6 @@ p{
 }
 
 @keyframes grossissement{
-    from{transform: scale(1,1) skewY(2deg);}
-    to{transform: scale(1.05,1.05) skewY(2deg);}
-  }
+    from{transform: scale(1,1);}
+    to{transform: scale(1.05,1.05);}
+}
