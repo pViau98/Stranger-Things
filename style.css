@@ -68,5 +68,12 @@ p{
 }
 
 .carte:hover{
-    transform: scale(1.05,1.05) skewY(2deg);
+    animation: grossissement 1;
+    animation-duration: 0.3s;
+    animation-fill-mode: forwards;
 }
+
+@keyframes grossissement{
+    from{transform: scale(1,1) skewY(2deg);}
+    to{transform: scale(1.05,1.05) skewY(2deg);}
+  }
