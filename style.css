@@ -6,24 +6,28 @@ body{
     background-image: linear-gradient(#e8f5ff, #45b2ff);
     border-radius: 50%;
     margin-left: 20px;
+    transform: skewY(2deg);
 }
 
 #grad2{
     background-image: linear-gradient(#ffa76a, #ff4431);
     border-radius: 50%;
     margin-left: 20px;
+    transform: skewY(2deg);
 }
 
 #grad3{
     background-image: linear-gradient(#9a8478, #1e130c);
     border-radius: 50%;
     margin-left: 20px;
+    transform: skewY(2deg);
 }
 
 #grad4{
     background-image: linear-gradient( #072239, #07d173);
     border-radius: 50%;
     margin-left: 20px;
+    transform: skewY(2deg);
 }
 
 .fondTexte{
@@ -33,7 +37,7 @@ body{
     margin-right: 20px;
     border-radius: 6px;
     padding-top: 1px;
-    transform: skew(-2deg);
+    transform: skewY(2deg);
 }
 
 h2{
