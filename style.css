@@ -73,7 +73,20 @@ p{
     animation-fill-mode: forwards;
 }
 
+.fondTexte:hover{
+    animation: couleur 1;
+    animation-duration: 0.3s;
+    animation-fill-mode: forwards;
+}
+
+
 @keyframes grossissement{
     from{transform: scale(1,1);}
     to{transform: scale(1.05,1.05);}
 }
+
+@keyframes couleur {
+    from {background-color: blanchedalmond;}
+    to {background-color: #dddddd;}
+  }
+
