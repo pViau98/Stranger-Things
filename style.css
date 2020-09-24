@@ -61,7 +61,7 @@ p{
     margin-bottom: 20px;
     padding-bottom: 20px;
 }
-img{
+.responsive{
     transform: translateY(5px);
 }
 
