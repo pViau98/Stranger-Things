@@ -73,7 +73,7 @@ p{
     animation-fill-mode: forwards;
 }
 
-.fondTexte:hover{
+.carte:hover > .fondTexte{
     animation: couleur 1;
     animation-duration: 0.3s;
     animation-fill-mode: forwards;
