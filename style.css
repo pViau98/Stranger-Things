@@ -1,8 +1,8 @@
-body{
+body {
     background-color: black;
 }
 
-#grad1{
+#grad1 {
     background-image: linear-gradient(#e8f5ff, #45b2ff);
     border-radius: 50%;
     margin-left: 20px;
@@ -10,7 +10,7 @@ body{
     width: 100%;
 }
 
-#grad2{
+#grad2 {
     background-image: linear-gradient(#ffa76a, #ff4431);
     border-radius: 50%;
     margin-left: 20px;
@@ -18,7 +18,7 @@ body{
     width: 100%;
 }
 
-#grad3{
+#grad3 {
     background-image: linear-gradient(#9a8478, #1e130c);
     border-radius: 50%;
     margin-left: 20px;
@@ -26,7 +26,7 @@ body{
     width: 100%;
 }
 
-#grad4{
+#grad4 {
     background-image: linear-gradient( #072239, #07d173);
     border-radius: 50%;
     margin-left: 20px;
@@ -34,7 +34,7 @@ body{
     width: 100%;
 }
 
-.fondTexte{
+.fondTexte {
     background-color: blanchedalmond;
     width: 100%;
     margin-left: 20px;
@@ -44,14 +44,14 @@ body{
     transform: skewY(2deg);
 }
 
-h2{
+h2 {
     font-family: sans-serif;
     font-weight: bold;
     font-size: 24px;
     margin-left: 30px;
 }
 
-p{
+p {
     font-size: 16px;
     font-family: sans-serif;
     color: black;
@@ -67,20 +67,23 @@ p{
     transform: translateY(5px);
 }
 
-.carte:hover{
+.carte:hover {
     animation: grossissement 1;
     animation-duration: 0.3s;
     animation-fill-mode: forwards;
 }
 
-.carte:hover > .fondTexte{
+.carte:hover .fondTexte {
     animation: couleur 1;
     animation-duration: 0.3s;
     animation-fill-mode: forwards;
 }
 
+.carte {
+}
 
-@keyframes grossissement{
+
+@keyframes grossissement {
     from{transform: scale(1,1);}
     to{transform: scale(1.05,1.05);}
 }
