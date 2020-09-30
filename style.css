@@ -79,10 +79,6 @@ p {
     animation-fill-mode: forwards;
 }
 
-.carte {
-    width: 100%;
-}
-
 .container {
     display: flex;
     flex-direction: column;
@@ -114,13 +110,9 @@ p {
 @media (min-width:900px) {
 
     .container {
-        flex-direction: row;
         flex-wrap: nowrap;
     }
 
-    .container > div {
-        flex: 0 100%;
-    }
     
 }
 
