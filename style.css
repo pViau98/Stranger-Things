@@ -81,8 +81,9 @@ p {
 
 .container {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
 }
+
 
 @keyframes grossissement {
     from{transform: scale(1,1);}
@@ -95,24 +96,15 @@ p {
 }
 
 @media (min-width:600px) {
-
-    .container {
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
-
     .container > div {
         flex: 0 50%;
     }
-
 }
 
 @media (min-width:900px) {
-
     .container {
         flex-wrap: nowrap;
     }
-
     
 }
 
