@@ -95,7 +95,7 @@ p {
 }
 
 @media (min-width:600px) {
-    .container > div {
+    .carte {
         flex: 0 50%;
     }
 }
